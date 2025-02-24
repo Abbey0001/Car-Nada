@@ -487,30 +487,10 @@ body{
 .price{
   line-height: 40px;
   padding-left: 10px;
-  color:rgb(149, 124, 124) ;
+  color:rgb(102, 91, 91);
 }
 
-.page-five{
-  height:100vh;
-  width: 100%;
-  background-color:white;
-  margin-top: 400px;
-  display: block;
-  margin: auto;
 
-}
-.page-five-one{
-  
-}
-.page-five-head{
-  display: flex;
-  justify-content: center;
-}
-.page-five-line{ 
-  height: 2px;
-  width: 80px;
-  border: 2px solid blue;
-}
 #topBtn {
   position: fixed;
   bottom: 20px;
@@ -528,5 +508,93 @@ body{
 
 #topBtn:hover {
   background-color: #0056b3;
+}
+
+.page-five{
+  height:100vh;
+  width: 100%;
+  background-color:white;
+  margin-top: 400px;
+  display: block;
+  margin: auto;
+
+}
+.page-five-one{
+  position: relative;
+  display: block;
+  margin-top: 450px;
+  margin-left: 40%;
+}
+.page-five-head{
+  
+}
+.page-five-line{ 
+  margin-left: 80px;
+  margin-top: 20px;
+  height: 1px;
+  width: 80px;
+  border: 1px solid blue;
+}
+.clients{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.client-card{
+  height: 300px;
+  width: 25%;
+  margin: auto;
+  border: 2px solid rgb(188, 185, 185);
+}
+.client-card:hover{
+  background-color: #0056b3;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.client-card-one{
+  background-image: url(./images/client1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+.client-card-two{
+  background-image: url(./images/client4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+.client-card-three{
+  background-image: url(./images/client3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+.client-word{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  font-style: italic;
+  line-height: 20px;
+  font-size: 16px;
 }
 

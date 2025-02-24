@@ -3,7 +3,7 @@ let topBtn = document.getElementById("topBtn");
 
 // Show button when scrolling down
 window.onscroll = function () {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
         topBtn.style.display = "block";
     } else {
         topBtn.style.display = "none";
