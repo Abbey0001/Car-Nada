@@ -1,0 +1,532 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+}
+.page-one{
+  height: 100vh;
+  width: 100%;
+  background-image: url("./images/background1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.label-icon{
+  height: 60px;
+  width: 100%;
+  background-color:black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo{
+  width:30%;
+  margin-left: 120px;
+  color:orangered;
+  font-weight: bold;
+  font-size: larger;
+  font-family: serif;
+  font-style: italic;
+}
+.icons{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 8px;
+  font-weight: bold;
+  font-family: roboto, arial;
+  margin-right: 150px;
+  transition: 0.3s;
+}
+.icon-one{
+  color: white;
+}
+.icon-one:hover{
+  color:rgb(106, 106, 233);
+  cursor: pointer;
+}
+.icon-home{
+  color: rgb(106, 106, 233);
+}
+.writeup{
+  height: 300px;
+  width: 60%;
+  margin: auto;
+  display: block;
+  align-items: center;
+  color: white;
+  margin-top: 60px;
+}
+.writeup-one{
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.writeup-two{
+  height: 30px;
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+  color:whitesmoke ;
+}
+.second-line{
+  height: 30px;
+  width: 70%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+}
+.btn-one{
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 18px;
+  background-color: rgb(106, 106, 233) ;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: 0.6s;
+}
+.btn-one:hover{
+  cursor: pointer;
+  color:rgb(106, 106, 233) ;
+  border: 1px solid rgb(106, 106, 233) ;
+  background-color:white;
+}
+.page-two{
+  height: 100vh;
+  width: 100%;
+}
+.card-container{
+  height: 200px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: -50px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px;
+
+}
+.semi-card{
+  height: 200px;
+  width: 20%;
+  margin-left: 30px;
+}
+
+.semi-card-one{
+  display:block;
+  line-height: 40px;
+  font-size: 18px;
+  margin-top: 18px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-family: roboto, sans-serif;
+}
+
+#year{
+  height: 35px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background-color: rgb(237, 235, 230);
+  padding: 4px 4px 4px;
+}
+#year:hover{
+  cursor: pointer;
+}
+.semi-card-two{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-two{
+  height: 40px;
+  width: 150px;
+  border-radius:6px;
+  background-color:rgb(106, 106, 233) ;
+  margin-right: 50px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  transition: 0.6s;
+}
+.btn-two:hover{
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgb(106, 106, 233) ;
+  color: rgb(106, 106, 233) ;
+}
+.card-container-two{
+  height: 300px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.semi-card-three{
+  height:300px;
+  width: 75%;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 12px;
+  color: rgb(114, 104, 104);
+}
+
+.service-logo{
+  margin-left: 130px;
+  font-size: 50px;
+  display: block;
+  margin-top: 40px;
+}
+.service-header{
+  margin-left: 50px;
+  margin-top: 20px;
+  color: black;
+}
+.service-word{
+  margin-left: 20px;
+  margin-top: 15px;
+  line-height: 25px;
+  padding: 10px;
+  color: black;
+}
+.page-three{
+  height: 100vh;
+  width: 100%;
+}
+.newest-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.newest-word{
+  font-family: Roboto, Arial;
+  line-height: 40px;
+}
+.newest-word-two{
+  letter-spacing: 2px;
+  margin-left: -8px;
+  font-size: 30px;
+}
+.newest-word-div{
+  height: 2px;
+  width: 60px;
+  background-color: blue;
+  margin-top: 20px;
+  margin-left: 48px;
+}
+.newest-cars{
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  width: 50%;
+}
+.slide{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: newest-cars 15s infinite;
+}
+
+
+.slide:nth-child(1){
+  animation-delay: 0s;
+}
+.slide:nth-child(2){
+  animation-delay: 5s;
+}
+.slide:nth-child(3){
+  animation-delay: 10s;
+}
+@keyframes newest-cars{
+  0%{opacity: 0;}
+  10%{opacity: 1;}
+  30%{opacity: 1;}
+  40%{opacity: 0;}
+  100%{opacity: 0;}
+} 
+.about-newest-cars{
+  height: 300px;
+  width: 20%;
+}
+.newest-container-two{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.about-newest-cars{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 30%;
+}
+.slideword{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: newest-cars 15s infinite;
+}
+ 
+.slideword:nth-child(1){
+  animation-delay: 0s;
+}
+.slideword:nth-child(2){
+  animation-delay: 5s;
+}
+.slideword:nth-child(3){
+  animation-delay: 10s;
+}
+@keyframes about-newest-carsnewest-cars{
+  0%{opacity: 0;}
+  10%{opacity: 1;}
+  30%{opacity: 1;}
+  40%{opacity: 0;}
+  100%{opacity: 0;}
+} 
+.car{
+  display: flex;
+  justify-content: center;
+}
+.car-spec{
+  line-height: 22px;
+  font-style: italic;
+}
+.btn-three{
+  position: absolute;
+  margin-left: 410px;
+  margin-top: 250px;
+  height: 50px;
+  width: 140px;
+  background-color:rgb(106, 106, 233);
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  transition: 0.6s;
+  
+}
+.btn-three:hover{
+  color: rgb(106, 106, 233);
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid rgb(106, 106, 233);
+}
+.page-four{
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.page-four-container{
+  margin-top: 100px;
+  height: 100px;
+  line-height: 30px;
+  font-size: 20px;
+  position: relative;
+}
+
+.featured-cars-word{
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  word-spacing: 3px;
+}
+.featured-cars-head{
+  font-size: 18px;
+}
+.thinline{
+  height: 2px;
+  width: 70px;
+  background-color: blue;
+  margin: auto;
+  margin-top: 20px;
+}
+.featured-cars-head{
+
+  margin-left: 20px;
+}
+.cars-container{
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 15px;
+  position: absolute;
+  margin-top: 250px;
+  height: 400px;
+  width: 100%;
+}
+.car-one{
+  background-image: url(./images/show1.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 23%;
+  border: 2px solid rgb(201, 196, 196);
+  border-radius: 6px;
+}
+.car-two{
+  background-image: url(./images/car.4.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 23%;
+  border: 2px solid rgb(201, 196, 196);
+  border-radius: 6px;
+}
+.car-three{
+  background-image: url(./images/show2.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 23%;
+  border: 2px solid rgb(201, 196, 196);
+  border-radius: 6px;
+}
+.car-four{
+  background-image: url(./images/camaro.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 23%;
+  border: 2px solid rgb(201, 196, 196);
+  border-radius: 6px;
+}
+.car-five{
+  background-image: url(./images/BMW\ 8-SERIES\ COUPE.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 23%;
+  border: 2px solid rgb(201, 196, 196);
+  border-radius: 6px;
+}
+.car-six{
+  background-image: url(./images/INFINITI\ Z5.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 23%;
+  border: 2px solid rgb(201, 196, 196);
+  border-radius: 6px;
+}
+.car-seven{
+  background-image: url(./images/g-wagon\ AMG.jpeg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 23%;
+  border: 2px solid rgb(201, 196, 196);
+  border-radius: 6px;
+}
+.car-eight{
+  background-image: url(./images/Ferrari\ 1.jpeg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 23%;
+  border: 2px solid rgb(201, 196, 196);
+  border-radius: 6px;
+}
+  
+
+.first{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  gap: 40px;
+}
+.model{
+  margin-top: 230px;
+  font-family:'Times New Roman', Times, serif;
+  line-height: 25px;
+  font-size: 20px;
+  padding-left: 10px;
+  color:rgb(102, 91, 91) ;
+  
+}
+.price{
+  line-height: 40px;
+  padding-left: 10px;
+  color:rgb(149, 124, 124) ;
+}
+
+.page-five{
+  height:100vh;
+  width: 100%;
+  background-color:white;
+  margin-top: 400px;
+  display: block;
+  margin: auto;
+
+}
+.page-five-one{
+  
+}
+.page-five-head{
+  display: flex;
+  justify-content: center;
+}
+.page-five-line{ 
+  height: 2px;
+  width: 80px;
+  border: 2px solid blue;
+}
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color:rgb(106, 106, 233);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none; 
+  transition: opacity 0.3s ease;
+}
+
+#topBtn:hover {
+  background-color: #0056b3;
+}
+
