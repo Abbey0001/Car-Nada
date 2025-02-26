@@ -32,7 +32,6 @@ body{
   font-weight: bold;
   font-size: larger;
   font-family: serif;
-  font-style: italic;
 }
 .icons{
   width: 50%;
@@ -596,5 +595,240 @@ body{
   font-style: italic;
   line-height: 20px;
   font-size: 16px;
+}
+.partners{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.logo-one{
+  background-image: url(./images/logo1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
+
+.logo-two{
+  background-image: url(./images/logo2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
+.logo-three{
+  background-image: url(./images/logo3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
+.logo-four{
+  background-image: url(./images/logo4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
+.logo-five{
+  background-image: url(./images/logo5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+}
+.logo-six{
+  background-image: url(./images/logo6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+}
+.logo-seven{
+  background-image: url(./images/logo7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+}
+.last-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+  background-color:rgb(71, 45, 71);
+  color: white;
+  border: 1px solid red;
+}
+.office-details{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif, roboto;
+}
+.office-about{
+  margin-top: 50px;
+}
+.office-email{
+  margin-top: 20px;
+}
+.office-number{
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.car-nada{
+  height: 300px;
+  width: 200px;
+}
+.all-of-us{
+  height: 300px;
+  width: 200px;
+}
+.btn-div{
+  margin-top: 40px;
+}
+
+.btn-about{
+  line-height: 30px;
+  width: 150px;
+}
+.btn-four{
+  border: none;
+  background-color:rgb(71, 45, 71);
+  color: rgb(253, 250, 250);
+  transition: transform 0.5s ease-in-out;
+}
+.btn-four:hover{
+  cursor: pointer;
+  transform: translateX(10px);
+}
+.about-car-nada{
+  font-family: roboto, arial;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.top-brands{
+  height: 300px;
+  width: 300px;
+}
+.tops{
+  font-family: roboto, arial;
+  font-weight: bold;
+  font-size: 13px;
+}
+.top-div{
+  height: 250px;
+  width: 300px;
+  margin-top: 30px;
+  display: flex;
+}
+.half{
+  height: 250px;
+  width: 150px;
+  line-height: 30px;
+}
+.diff{
+  border: none;
+  color: rgb(253, 250, 250);
+  background-color:rgb(71, 45, 71);
+  transition: transform 0.5s ease-in-out;
+}
+.diff:hover{
+  cursor: pointer;
+  transform: translateX(10px);
+}
+.news{
+  height: 300px;
+  width: 300px;
+}
+.news-letter{
+  font-family: roboto, arial;
+  font-weight: bold;
+  font-size: 13px;
+
+}
+.news-word{
+  margin-top: 30px;
+  color: white;
+}
+
+.input-container{
+  margin-top: 20px;
+  width: 200px;
+}
+input, .text{
+  background-color: rgb(71, 45, 71);
+  border-radius: 8px;
+  height: 30px;
+  width: 160px;
+  color: rgb(214, 204, 204);
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  box-shadow: 4px 4px 8px rgb(28, 16, 28);
+}
+.arrow{
+  background-color: rgb(71, 45, 71);
+  height: 30px;
+  color: rgb(214, 204, 204);
+  border: none;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+.arrow{
+  cursor: pointer;
+}
+.line{
+  height: 1px;
+  width: 80%;
+  margin-top: -60px;
+  margin-left: 10%;
+  background-color: white;
+}
+.copyright{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin-left:10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  font-size: 15px;
+  color: rgb(255, 249, 249);
+
+}
+.social-media{
+  width: 200px;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  color: rgb(255, 249, 249);
+  transition: transform 0.7s ease-in-out;
+}
+.social:hover{
+  cursor: pointer;
+  font-size: 22px;
+  color:orangered;
 }
 
