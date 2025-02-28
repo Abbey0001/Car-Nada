@@ -54,6 +54,10 @@ body{
 .icon-home{
   color: rgb(106, 106, 233);
 }
+
+.call{
+  text-decoration: none;
+}
 .writeup{
   height: 300px;
   width: 60%;
@@ -830,5 +834,9 @@ input, .text{
   cursor: pointer;
   font-size: 22px;
   color:orangered;
+}
+
+.tag{
+  color:rgb(255, 249, 249);
 }
 
